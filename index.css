@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff8e1; /* Light yellow background */
+    font-family: 'Roboto', sans-serif; /* Clean, modern font */
+    user-select: none;
+}
+
+.container {
+    background: #ffffff; /* Bright white background for the container */
+    padding: 40px;
+    border: 2px solid #ffeb3b; /* Bright yellow border */
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px; /* Slightly rounded corners for a modern look */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow for more depth */
+}
+
+.cart-image {
+    width: 200px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+#input-field {
+    color: #ff9800; /* Orange text for a vibrant look */
+    background-color: #fff3e0; /* Light orange background */
+    border: 1px solid #ff9800; /* Orange border */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px; /* Slightly smaller for a balanced look */
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: text; /* Text cursor for the input field */
+}
+
+#add-button {
+    color: #ffffff; /* White text for contrast */
+    background-color: #ff5722; /* Vibrant orange background */
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer; /* Pointer cursor for buttons */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#add-button:hover {
+    background-color: #e64a19; /* Slightly darker orange on hover */
+    color: #ffffff; /* Keep text white */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    cursor: default; /* Default cursor for the list */
+}
+
+ul li {
+    font-size: 18px; /* Adjusted font size for consistency */
+    background-color: #fff9c4; /* Soft yellow background */
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2); /* Slightly larger shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* Pointer cursor for individual list items */
+}
+
+ul li:hover {
+    background-color: #ffe0b2; /* Light orange on hover */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25); /* Larger shadow on hover */
+}
